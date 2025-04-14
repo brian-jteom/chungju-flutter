@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello/ToDoPage.dart';
+import 'package:hello/todo-page.dart';
 import 'package:hello/button_page.dart';
 import 'package:hello/flex_page.dart';
 import 'package:hello/image_page.dart';
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: "/",
       routes: {
-        '/': (context) => const LayoutPage(),
+        '/': (context) => const TodoPage(),
         '/setting': (context) => const SettingPage(),
         '/popup': (context) => const PopupPage(),
         '/flex': (context) => const FlexPage(),
